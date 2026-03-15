@@ -44,7 +44,6 @@ export default function Footer() {
                 className="text-white font-black"
                 style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "1.25rem" }}
               >
-                F1<span style={{ color: "#E8002D" }}>RACE</span>
               </span>
             </div>
             <p
