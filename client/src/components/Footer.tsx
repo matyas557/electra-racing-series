@@ -140,7 +140,7 @@ export default function Footer() {
             className="f1-label"
             style={{ color: "rgba(255,255,255,0.2)", fontSize: "0.65rem" }}
           >
-            © 2025 F1RACE. All rights reserved. Formula 1 and related marks are trademarks of Formula One Licensing B.V.
+            © 2026 ERS. Všechna práva vyhrazena.
           </p>
           <div className="flex gap-4">
             {["Privacy Policy", "Terms of Use", "Cookie Settings"].map((item) => (
