@@ -22,7 +22,7 @@ const teams = [
     color: "#E8002D",
     secondColor: "#ffffff",
     drivers: ["-", "-"],
-    base: "Maranello, Italy",
+    base: "Maranello, Itálie",
     championships: 0,
     founded: 2026,
    

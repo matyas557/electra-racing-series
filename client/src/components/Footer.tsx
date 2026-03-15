@@ -4,7 +4,7 @@
  */
 import { Flag, Twitter, Instagram, Youtube, Facebook } from "lucide-react";
 import { toast } from "sonner";
-
+import car from "client/public/logo.png";
 const footerLinks = {
   Racing: ["Tabulky", "Kalendář", "Výsledky"],
   Teams: ["Red Bull Racing", "Ferrari", "McLaren", "Mercedes"],
@@ -33,12 +33,8 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <div
                 className="w-8 h-8 flex items-center justify-center"
-                style={{
-                  background: "#E8002D",
-                  clipPath: "polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px))",
-                }}
+                
               >
-                <Flag size={14} className="text-white" />
               </div>
               <span
                 className="text-white font-black"
