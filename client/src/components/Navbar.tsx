@@ -4,14 +4,13 @@
  * Sticky top with backdrop blur on scroll
  */
 import { useState, useEffect } from "react";
-import { Menu, X, Flag } from "lucide-react";
 
 const navItems = [
-  { label: "Standings", href: "#standings" },
-  { label: "Calendar", href: "#calendar" },
-  { label: "Teams", href: "#teams" },
-  { label: "Drivers", href: "#drivers" },
-  { label: "News", href: "#news" },
+  { label: "Tabulka", href: "#standings" },
+  { label: "Kalendář", href: "#calendar" },
+  { label: "Týmy", href: "#teams" },
+  { label: "Jezdci", href: "#drivers" },
+  { label: "Novinky", href: "#news" },
 ];
 
 export default function Navbar() {
@@ -52,19 +51,15 @@ export default function Navbar() {
             onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
           >
             <div
-              className="w-8 h-8 flex items-center justify-center"
-              style={{
-                background: "#E8002D",
-                clipPath: "polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px))",
-              }}
             >
-              <Flag size={14} className="text-white" />
+
+
             </div>
             <span
               className="text-white font-black tracking-tight"
               style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "1.25rem", letterSpacing: "-0.01em" }}
             >
-              F1<span style={{ color: "#E8002D" }}>RACE</span>
+              ELECTRA <span style={{ color: "#E8002D" }}>RACING SERIES</span>
             </span>
           </a>
 
@@ -83,18 +78,7 @@ export default function Navbar() {
 
           {/* CTA + Mobile Menu */}
           <div className="flex items-center gap-4">
-            <button
-              className="hidden md:block f1-btn-primary text-sm"
-              onClick={() => handleNavClick("#calendar")}
-            >
-              Race Schedule
-            </button>
-            <button
-              className="md:hidden text-white"
-              onClick={() => setMenuOpen(!menuOpen)}
-            >
-              {menuOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
+            
           </div>
         </div>
       </div>

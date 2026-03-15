@@ -6,7 +6,7 @@
 import { useEffect, useRef, useState } from "react";
 import { ChevronDown } from "lucide-react";
 
-const HERO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663419012309/FUBNiPFctLLWzH3m2BbTut/f1-hero-night-oPy2WdmCZpJCjYJDGTsjXC.webp";
+const HERO_IMG = "";
 
 const speedLines = Array.from({ length: 12 }, (_, i) => ({
   id: i,
@@ -101,7 +101,7 @@ export default function HeroSection() {
               className="f1-label"
               style={{ color: "#E8002D", fontSize: "0.7rem" }}
             >
-              Formula 1 · 2025 Season
+              ELECTRA  Racing series - Sezona 1
             </span>
           </div>
 
@@ -115,11 +115,7 @@ export default function HeroSection() {
               transition: "all 0.8s ease 0.4s",
             }}
           >
-            SPEED.
-            <br />
-            <span style={{ color: "#E8002D" }}>PRECISION.</span>
-            <br />
-            VICTORY.
+            Vítejte na oficiální stránce F1 ligy ERS
           </h1>
 
           {/* Subheading */}
@@ -136,8 +132,7 @@ export default function HeroSection() {
               transition: "all 0.8s ease 0.6s",
             }}
           >
-            The pinnacle of motorsport. 24 races. 10 teams. 20 drivers.
-            One world championship. Experience Formula 1 like never before.
+        
           </p>
 
           {/* CTA Buttons */}
@@ -156,7 +151,7 @@ export default function HeroSection() {
                 if (el) el.scrollIntoView({ behavior: "smooth" });
               }}
             >
-              View Standings
+              zobrazit tabulku
             </button>
             <button
               className="f1-btn-outline"
@@ -165,7 +160,7 @@ export default function HeroSection() {
                 if (el) el.scrollIntoView({ behavior: "smooth" });
               }}
             >
-              Race Calendar
+              Závodní kalendář
             </button>
           </div>
 
@@ -179,10 +174,10 @@ export default function HeroSection() {
             }}
           >
             {[
-              { value: "24", label: "Races" },
-              { value: "10", label: "Teams" },
-              { value: "20", label: "Drivers" },
-              { value: "75+", label: "Years of F1" },
+              { value: "24", label: "závodů" },
+              { value: "10", label: "Týmů" },
+              { value: "2", label: "jezdci" },
+              { value: "1", label: "měsíc působení" },
             ].map((stat) => (
               <div key={stat.label}>
                 <div

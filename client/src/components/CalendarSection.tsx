@@ -6,18 +6,36 @@
 import { MapPin, Clock, Calendar } from "lucide-react";
 
 const races = [
-  { round: "01", name: "Bahrain Grand Prix", circuit: "Bahrain International Circuit", country: "Bahrain", flag: "🇧🇭", date: "Mar 2", status: "completed", winner: "Verstappen" },
-  { round: "02", name: "Saudi Arabian Grand Prix", circuit: "Jeddah Corniche Circuit", country: "Saudi Arabia", flag: "🇸🇦", date: "Mar 9", status: "completed", winner: "Verstappen" },
-  { round: "03", name: "Australian Grand Prix", circuit: "Albert Park Circuit", country: "Australia", flag: "🇦🇺", date: "Mar 24", status: "next", winner: null },
-  { round: "04", name: "Japanese Grand Prix", circuit: "Suzuka International Racing Course", country: "Japan", flag: "🇯🇵", date: "Apr 7", status: "upcoming", winner: null },
-  { round: "05", name: "Chinese Grand Prix", circuit: "Shanghai International Circuit", country: "China", flag: "🇨🇳", date: "Apr 21", status: "upcoming", winner: null },
-  { round: "06", name: "Miami Grand Prix", circuit: "Miami International Autodrome", country: "USA", flag: "🇺🇸", date: "May 5", status: "upcoming", winner: null },
-  { round: "07", name: "Emilia Romagna Grand Prix", circuit: "Autodromo Enzo e Dino Ferrari", country: "Italy", flag: "🇮🇹", date: "May 19", status: "upcoming", winner: null },
-  { round: "08", name: "Monaco Grand Prix", circuit: "Circuit de Monaco", country: "Monaco", flag: "🇲🇨", date: "May 26", status: "upcoming", winner: null },
-  { round: "09", name: "Canadian Grand Prix", circuit: "Circuit Gilles Villeneuve", country: "Canada", flag: "🇨🇦", date: "Jun 9", status: "upcoming", winner: null },
-  { round: "10", name: "Spanish Grand Prix", circuit: "Circuit de Barcelona-Catalunya", country: "Spain", flag: "🇪🇸", date: "Jun 23", status: "upcoming", winner: null },
-  { round: "11", name: "Austrian Grand Prix", circuit: "Red Bull Ring", country: "Austria", flag: "🇦🇹", date: "Jun 30", status: "upcoming", winner: null },
-  { round: "12", name: "British Grand Prix", circuit: "Silverstone Circuit", country: "UK", flag: "🇬🇧", date: "Jul 7", status: "upcoming", winner: null },
+  { round: "01", name: "Velká Cena Austrálie", circuit: "Albert Park Circuit", country: "Australia", flag: "", date: "neznámo", status: "next", winner: null },
+  { round: "02", name: "Velká Cena Číny", circuit: "Shanghai International Circuit", country: "China", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "03", name: "Velká Cena Japonska", circuit: "Suzuka International Racing Course", country: "Japan", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "04", name: "Velká Cena Bahrajnu", circuit: "Bahrain International Circuit", country: "Bahrain", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "05", name: "Velká Cena Saúdské Arábie", circuit: "Jeddah Corniche Circuit", country: "Saudi Arabia", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "06", name: "Velká Cena Miami", circuit: "Miami International Autodrome", country: "USA", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "07", name: "Velká Cena Kanady", circuit: "Circuit Gilles Villeneuve", country: "Canada", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "08", name: "Velká Cena Monaka", circuit: "Circuit de Monaco", country: "Monaco", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "09", name: "Velká Cena Španělska", circuit: "Circuit de Barcelona-Catalunya", country: "Spain", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "10", name: "Velká Cena Rakouska", circuit: "Red Bull Ring", country: "Austria", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "11", name: "Velká Cena Velké Británie", circuit: "Silverstone Circuit", country: "UK", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "12", name: "Velká Cena Belgie", circuit: "Spa-Francorchamps", country: "Australia", flag: "", date: "neznámo", status: "upcoming", winner: null },
+
+  { round: "13", name: "Velká Cena Maďarska", circuit: "Hungaroring", country: "Maďarsko", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "14", name: "Velká Cena Nizozemska", circuit: "Cicuit Zandvoort", country: "Nizozemsko", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "15", name: "Velká Cena Itálie", circuit: "Autodromo Nazionale Monza", country: "Itálie", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "16", name: "Velká Cena Itálie", circuit: "Autodromo Enzo e Dino Ferrari", country: "Itálie", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "17", name: "Velká Cena Azerbajdžánu", circuit: "Baku City Circuit", country: "Saudi Arabia", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "18", name: "Velká Cena Singapuru", circuit: "Marina Bay Street Circuit", country: "USA", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "19", name: "Velká Cena USA", circuit: "Circuit of The Americas", country: "Canada", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "20", name: "Velká Cena Mexika", circuit: "Autodrómo Hermanos Rodríguez", country: "Monaco", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "21", name: "Velká Cena Brazílie", circuit: "Autodrómo José Carlos Pace", country: "Spain", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "22", name: "Velká Cena Las Vegas", circuit: "Las Vegas Strip Circuit", country: "Austria", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "23", name: "Velká Cena Kataru", circuit: "Lusail International Circuit", country: "UK", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "24", name: "Velká Cena Abú Dhabí", circuit: "Yas Marina Circuit", country: "Australia", flag: "", date: "neznámo", status: "upcoming", winner: null },
+
+  
+  
+
+
 ];
 
 export default function CalendarSection() {
@@ -28,22 +46,22 @@ export default function CalendarSection() {
           <span className="section-number">02</span>
           <div className="flex items-center gap-3 mb-3">
             <div style={{ width: "32px", height: "2px", background: "#00D4FF" }} />
-            <span className="f1-label" style={{ color: "#00D4FF" }}>2025 Season</span>
+            <span className="f1-label" style={{ color: "#00D4FF" }}>Sezóna 1</span>
           </div>
           <h2
             className="f1-heading text-white"
             style={{ fontSize: "clamp(2.5rem, 5vw, 4.5rem)" }}
           >
-            RACE CALENDAR
+            Kalendář pro Sezónu 1
           </h2>
         </div>
 
         {/* Legend */}
         <div className="flex flex-wrap gap-6 mb-8">
           {[
-            { color: "rgba(255,255,255,0.2)", label: "Completed" },
-            { color: "#E8002D", label: "Next Race" },
-            { color: "rgba(255,255,255,0.06)", label: "Upcoming" },
+            { color: "rgba(255,255,255,0.2)", label: "Odjeto" },
+            { color: "#E8002D", label: "Další závod" },
+            { color: "rgba(255,255,255,0.06)", label: "následuje" },
           ].map((item) => (
             <div key={item.label} className="flex items-center gap-2">
               <div style={{ width: "12px", height: "12px", background: item.color, borderRadius: "2px" }} />
@@ -88,7 +106,7 @@ export default function CalendarSection() {
                     }}
                   />
                   <span className="f1-label text-white" style={{ fontSize: "0.6rem" }}>
-                    NEXT RACE
+                    DALŠÍ ZÁVOD
                   </span>
                 </div>
               )}
@@ -133,7 +151,7 @@ export default function CalendarSection() {
                       className="f1-label"
                       style={{ color: "#00D4FF", fontSize: "0.65rem" }}
                     >
-                      {race.date}, 2025
+                      {race.date}
                     </span>
                   </div>
 

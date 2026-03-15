@@ -9,44 +9,41 @@ import { toast } from "sonner";
 const articles = [
   {
     id: 1,
-    category: "Championship",
-    title: "Verstappen Extends Championship Lead with Dominant Saudi Victory",
-    excerpt: "Max Verstappen delivered another masterclass performance at the Jeddah Corniche Circuit, leading from pole position to take his second consecutive victory of the 2025 season.",
+    category: "Obecné",
+    title: "Nová liga",
     time: "5 min read",
-    date: "Mar 9, 2025",
+    date: "",
     featured: true,
-    tag: "Race Report",
+    tag: "Obecné",
     tagColor: "#E8002D",
   },
   {
     id: 2,
-    category: "Technical",
-    title: "McLaren Unveils Major Upgrade Package for Australian GP",
-    excerpt: "The Woking outfit arrives in Melbourne with a significant aerodynamic overhaul aimed at closing the gap to Red Bull.",
+    category: "-",
+    title: "-",
     time: "3 min read",
-    date: "Mar 8, 2025",
+    date: "",
     featured: false,
     tag: "Technical",
     tagColor: "#FF8000",
   },
   {
     id: 3,
-    category: "Driver News",
-    title: "Hamilton Confirms Ferrari Move: 'A Dream Come True'",
-    excerpt: "Lewis Hamilton speaks exclusively about his decision to join Ferrari and what he hopes to achieve with the Scuderia.",
+    category: "-",
+    title: "-",
+    excerpt: "",
     time: "4 min read",
-    date: "Mar 7, 2025",
+    date: "",
     featured: false,
     tag: "Exclusive",
     tagColor: "#C9A84C",
   },
   {
     id: 4,
-    category: "Race Preview",
-    title: "Australian GP Preview: Can Anyone Stop Verstappen in Melbourne?",
-    excerpt: "As the championship heads to Albert Park, we analyse the key battles and storylines heading into round three.",
+    category: "-",
+    title: "-",
     time: "6 min read",
-    date: "Mar 6, 2025",
+    date: "",
     featured: false,
     tag: "Preview",
     tagColor: "#00D4FF",
@@ -70,14 +67,14 @@ export default function NewsSection() {
           <span className="section-number">05</span>
           <div className="flex items-center gap-3 mb-3">
             <div style={{ width: "32px", height: "2px", background: "#00D4FF" }} />
-            <span className="f1-label" style={{ color: "#00D4FF" }}>Latest Updates</span>
+            <span className="f1-label" style={{ color: "#00D4FF" }}>Updaty ligy</span>
           </div>
           <div className="flex items-end justify-between">
             <h2
               className="f1-heading text-white"
               style={{ fontSize: "clamp(2.5rem, 5vw, 4.5rem)" }}
             >
-              F1 NEWS
+              ERS Novinky
             </h2>
             <button
               onClick={handleReadMore}
@@ -170,7 +167,7 @@ export default function NewsSection() {
                     </div>
                   </div>
                   <div className="flex items-center gap-1" style={{ color: "#E8002D" }}>
-                    <span className="f1-label" style={{ fontSize: "0.65rem" }}>Read More</span>
+                    <span className="f1-label" style={{ fontSize: "0.65rem" }}>Více</span>
                     <ArrowRight size={12} />
                   </div>
                 </div>

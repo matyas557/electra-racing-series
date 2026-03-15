@@ -6,70 +6,107 @@
 
 const teams = [
   {
-    name: "Red Bull Racing",
-    fullName: "Oracle Red Bull Racing",
-    color: "#3671C6",
-    secondColor: "#CC1E4A",
-    drivers: ["Max Verstappen", "Sergio Perez"],
-    base: "Milton Keynes, UK",
-    championships: 6,
-    founded: 2005,
-    description: "The dominant force in modern F1, Red Bull Racing has redefined the sport with aerodynamic innovation and driver development excellence.",
+    name: "McLaren",
+    fullName: "McLaren Formula 1 Team",
+    color: "#FF8000",
+    secondColor: "#000000",
+    drivers: ["-", "-"],
+    base: "Woking,Velká Británie",
+    championships: 0,
+    founded: 2026,
+    
   },
   {
     name: "Ferrari",
     fullName: "Scuderia Ferrari HP",
     color: "#E8002D",
-    secondColor: "#FFD700",
-    drivers: ["Charles Leclerc", "Carlos Sainz"],
+    secondColor: "#ffffff",
+    drivers: ["-", "-"],
     base: "Maranello, Italy",
-    championships: 16,
-    founded: 1950,
-    description: "The most storied name in Formula 1. Ferrari's passion, heritage, and relentless pursuit of victory make them the sport's most iconic team.",
+    championships: 0,
+    founded: 2026,
+   
   },
   {
-    name: "McLaren",
-    fullName: "McLaren Formula 1 Team",
-    color: "#FF8000",
-    secondColor: "#47C7FC",
-    drivers: ["Lando Norris", "Oscar Piastri"],
-    base: "Woking, UK",
-    championships: 8,
-    founded: 1966,
-    description: "Resurgent and relentless, McLaren's papaya livery is back at the front of the grid with a young, electrifying driver lineup.",
+    name: "Red Bull Racing",
+    fullName: "Oracle Red Bull Racing",
+    color: "#3671C6",
+    secondColor: "#CC1E4A",
+    drivers: ["-", "-"],
+    base: "Milton Keynes, Velká Británie",
+    championships: 0,
+    founded: 2026,
   },
   {
     name: "Mercedes",
     fullName: "Mercedes-AMG Petronas F1 Team",
     color: "#27F4D2",
     secondColor: "#000000",
-    drivers: ["Lewis Hamilton", "George Russell"],
-    base: "Brackley, UK",
-    championships: 8,
-    founded: 2010,
-    description: "Seven-time constructors' champions, Mercedes remains a powerhouse of engineering excellence and strategic brilliance.",
+    drivers: ["-", "-"],
+    base: "Brackley, Velká Británie",
+    championships: 0,
+    founded: 2026,
+    
   },
   {
     name: "Aston Martin",
     fullName: "Aston Martin Aramco F1 Team",
     color: "#358C75",
     secondColor: "#CEDC00",
-    drivers: ["Fernando Alonso", "Lance Stroll"],
-    base: "Silverstone, UK",
+    drivers: ["-", "-"],
+    base: "Silverstone, Velká Británie",
     championships: 0,
-    founded: 2021,
-    description: "Backed by Lawrence Stroll's vision and Fernando Alonso's experience, Aston Martin is building toward championship glory.",
+    founded: 2026,
   },
   {
     name: "Alpine",
     fullName: "BWT Alpine F1 Team",
     color: "#0093CC",
     secondColor: "#FF87BC",
-    drivers: ["Pierre Gasly", "Esteban Ocon"],
-    base: "Enstone, UK",
-    championships: 2,
-    founded: 2021,
-    description: "Racing with French flair and Renault heritage, Alpine fights to recapture the glory days of their championship-winning past.",
+    drivers: ["Martin Davídek", "-"],
+    base: "Enstone, Velká Británie",
+    championships: 0,
+    founded: 2026,
+  },
+  {
+    name: "Haas",
+    fullName: "TGR Haas F1 Team",
+    color: "#B6BABD",
+    secondColor: "#ff0000",
+    drivers: ["-", "-"],
+    base: "Kannapolis, USA",
+    championships: 0,
+    founded: 2026,
+  },
+  {
+    name: "Racing Bulls",
+    fullName: "Visa Cash App Racing Bulls F1 Team",
+    color: "#0059ff",
+    secondColor: "#ffffff",
+    drivers: ["-", "-"],
+    base: "Faenza, Itálie",
+    championships: 0,
+    founded: 2026,
+  },
+  {
+    name: "Williams",
+    fullName: "Atlassian Williams F1 Team",
+    color: "#64C4FF",
+    secondColor: "#ffffff",
+    drivers: ["Matyáš Vošahlík", "-"],
+    base: "Grove, Velká Británie",
+    championships: 0,
+    founded: 2026,
+  },
+  {
+    name: "Kick Sauber",
+    fullName: "Stake Kick F1 Team Sauber",
+    color: "#00ff0d",
+    secondColor: "#000000",
+    drivers: ["-", "-"],
+    base: "Hinwil, švýcarsko",
+    championships: 0,
+    founded: 2026,
   },
 ];
 
@@ -81,13 +118,13 @@ export default function TeamsSection() {
           <span className="section-number">03</span>
           <div className="flex items-center gap-3 mb-3">
             <div style={{ width: "32px", height: "2px", background: "#C9A84C" }} />
-            <span className="f1-label" style={{ color: "#C9A84C" }}>The Constructors</span>
+            <span className="f1-label" style={{ color: "#C9A84C" }}>Profily týmů</span>
           </div>
           <h2
             className="f1-heading text-white"
             style={{ fontSize: "clamp(2.5rem, 5vw, 4.5rem)" }}
           >
-            F1 TEAMS
+            Týmy v ERS
           </h2>
         </div>
 
@@ -137,13 +174,13 @@ export default function TeamsSection() {
                     marginBottom: "1.25rem",
                   }}
                 >
-                  {team.description}
+              
                 </p>
 
                 {/* Drivers */}
                 <div className="mb-4">
                   <div className="f1-label mb-2" style={{ color: "rgba(255,255,255,0.3)", fontSize: "0.6rem" }}>
-                    Drivers
+                    Jezdci
                   </div>
                   <div className="flex flex-col gap-1">
                     {team.drivers.map((driver) => (
@@ -187,7 +224,7 @@ export default function TeamsSection() {
                       {team.championships}
                     </div>
                     <div className="f1-label" style={{ color: "rgba(255,255,255,0.3)", fontSize: "0.6rem" }}>
-                      Championships
+                     Tituly
                     </div>
                   </div>
                   <div>
@@ -198,7 +235,7 @@ export default function TeamsSection() {
                       {team.founded}
                     </div>
                     <div className="f1-label" style={{ color: "rgba(255,255,255,0.3)", fontSize: "0.6rem" }}>
-                      Founded
+                      Založeno
                     </div>
                   </div>
                   <div>
@@ -209,7 +246,7 @@ export default function TeamsSection() {
                       {team.base.split(",")[1]?.trim() || team.base}
                     </div>
                     <div className="f1-label" style={{ color: "rgba(255,255,255,0.3)", fontSize: "0.6rem" }}>
-                      Base
+                      Sídlo
                     </div>
                   </div>
                 </div>

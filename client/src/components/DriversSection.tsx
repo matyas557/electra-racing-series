@@ -6,83 +6,268 @@
 
 const drivers = [
   {
-    number: "1",
-    name: "Max Verstappen",
-    shortName: "VER",
-    team: "Red Bull Racing",
-    teamColor: "#3671C6",
-    nationality: "🇳🇱 Dutch",
-    age: 26,
-    wins: 59,
-    poles: 40,
-    championships: 4,
-    bio: "The four-time world champion. Verstappen's raw speed and racecraft have made him the most dominant driver of his generation.",
-  },
-  {
-    number: "4",
-    name: "Lando Norris",
-    shortName: "NOR",
+    number: "0",
+    name: "-",
+    shortName: "-",
     team: "McLaren",
     teamColor: "#FF8000",
-    nationality: "🇬🇧 British",
-    age: 25,
-    wins: 4,
-    poles: 5,
+    nationality: "-",
+    age: 0,
+    wins: 0,
+    poles: 0,
     championships: 0,
-    bio: "The fan favourite with lightning pace. Norris is the brightest young talent in F1, pushing hard for his first championship.",
+    
+  },
+    {
+    number: "0",
+    name: "-",
+    shortName: "-",
+    team: "McLaren",
+    teamColor: "#FF8000",
+    nationality: "-",
+    age: 0,
+    wins: 0,
+    poles: 0,
+    championships: 0,
+    
   },
   {
-    number: "16",
-    name: "Charles Leclerc",
-    shortName: "LEC",
+    number: "0",
+    name: "-",
+    shortName: "-",
     team: "Ferrari",
     teamColor: "#E8002D",
-    nationality: "🇲🇨 Monégasque",
-    age: 27,
-    wins: 8,
-    poles: 24,
+    nationality: "",
+    age: 0,
+    wins: 0,
+    poles: 0,
     championships: 0,
-    bio: "The prince of Monaco and Ferrari's standard bearer. Leclerc's qualifying pace is among the finest the sport has ever seen.",
+    
   },
   {
-    number: "44",
-    name: "Lewis Hamilton",
-    shortName: "HAM",
-    team: "Mercedes",
-    teamColor: "#27F4D2",
-    nationality: "🇬🇧 British",
-    age: 40,
-    wins: 103,
-    poles: 104,
-    championships: 7,
-    bio: "The greatest of all time. Seven world championships, 103 wins — Hamilton's legacy is unmatched in the history of Formula 1.",
-  },
-  {
-    number: "55",
-    name: "Carlos Sainz",
-    shortName: "SAI",
+    number: "0",
+    name: "-",
+    shortName: "0",
     team: "Ferrari",
     teamColor: "#E8002D",
-    nationality: "🇪🇸 Spanish",
-    age: 30,
-    wins: 4,
-    poles: 6,
+    nationality: "",
+    age: 0,
+    wins: 0,
+    poles: 0,
     championships: 0,
-    bio: "Smooth, consistent, and relentlessly quick. Sainz has proven himself a race winner and a genuine championship contender.",
+    
   },
   {
-    number: "63",
-    name: "George Russell",
-    shortName: "RUS",
+    number: "0",
+    name: "-",
+    shortName: "-",
+    team: "Red Bull Racing",
+    teamColor: "#3671C6",
+    nationality: "-",
+    age: 0,
+    wins: 0,
+    poles: 0,
+    championships: 0,
+   
+  },
+    {
+    number: "0",
+    name: "-",
+    shortName: "-",
+    team: "Red Bull Racing",
+    teamColor: "#3671C6",
+    nationality: "",
+    age: 0,
+    wins: 0,
+    poles: 0,
+    championships: 0,
+    
+  },
+  
+  
+  {
+    number: "0",
+    name: "-",
+    shortName: "0",
     team: "Mercedes",
     teamColor: "#27F4D2",
-    nationality: "🇬🇧 British",
-    age: 26,
-    wins: 2,
-    poles: 3,
+    nationality: "",
+    age: 0,
+    wins: 0,
+    poles: 0,
     championships: 0,
-    bio: "Methodical, intelligent, and devastatingly quick. Russell is the future of Mercedes and a future world champion in the making.",
+    
   },
+  {
+    number: "0",
+    name: "-",
+    shortName: "0",
+    team: "Mercedes",
+    teamColor: "#27F4D2",
+    nationality: "",
+    age: 0,
+    wins: 0,
+    poles: 0,
+    championships: 0,
+    
+  },
+  {
+    number: "0",
+    name: "-",
+    shortName: "0",
+    team: "Aston Martin",
+    teamColor: "#358C75",
+    nationality: "",
+    age: 0,
+    wins: 0,
+    poles: 0,
+    championships: 0,
+    
+  },
+  {
+    number: "0",
+    name: "-",
+    shortName: "0",
+    team: "Aston Martin",
+    teamColor: "#358C75",
+    nationality: "",
+    age: 0,
+    wins: 0,
+    poles: 0,
+    championships: 0,
+    
+  },
+  {
+    number: "47",
+    name: "Martin Davídek",
+    shortName: "DAV",
+    team: "Alpine",
+    teamColor: "#FF87BC",
+    nationality: "Česká Republika",
+    age: 18,
+    wins: 0,
+    poles: 0,
+    championships: 0,
+    
+  },
+  {
+    number: "0",
+    name: "-",
+    shortName: "0",
+    team: "Alpine",
+    teamColor: "#FF87BC",
+    nationality: "",
+    age: 0,
+    wins: 0,
+    poles: 0,
+    championships: 0,
+    
+  },
+  {
+    number: "0",
+    name: "-",
+    shortName: "0",
+    team: "Haas",
+    teamColor: "#B6BABD",
+    nationality: "",
+    age: 0,
+    wins: 0,
+    poles: 0,
+    championships: 0,
+    
+  },
+  {
+    number: "0",
+    name: "-",
+    shortName: "0",
+    team: "Haas",
+    teamColor: "#B6BABD",
+    nationality: "",
+    age: 0,
+    wins: 0,
+    poles: 0,
+    championships: 0,
+    
+  },
+  {
+    number: "0",
+    name: "-",
+    shortName: "0",
+    team: "Racing Bulls",
+    teamColor: "#0059ff",
+    nationality: "",
+    age: 0,
+    wins: 0,
+    poles: 0,
+    championships: 0,
+    
+  },
+  {
+    number: "0",
+    name: "-",
+    shortName: "0",
+    team: "Racing Bulls",
+    teamColor: "#0059ff",
+    nationality: "",
+    age: 0,
+    wins: 0,
+    poles: 0,
+    championships: 0,
+    
+  },
+  {
+    number: "46",
+    name: "Matyáš Vošahlík",
+    shortName: "VOS",
+    team: "Williams",
+    teamColor: "#64C4FF",
+    nationality: "Česká Republika",
+    age: 16,
+    wins: 0,
+    poles: 0,
+    championships: 0,
+    
+  },
+  {
+    number: "0",
+    name: "-",
+    shortName: "-",
+    team: "Williams",
+    teamColor: "#64C4FF",
+    nationality: "",
+    age: 0,
+    wins: 0,
+    poles: 0,
+    championships: 0,
+    
+  },
+  {
+    number: "0",
+    name: "-",
+    shortName: "-",
+    team: "Kick Sauber",
+    teamColor: "#00ff0d",
+    nationality: "",
+    age: 0,
+    wins: 0,
+    poles: 0,
+    championships: 0,
+    
+  },
+  {
+    number: "0",
+    name: "-",
+    shortName: "-",
+    team: "Kick Sauber",
+    teamColor: "#00ff0d",
+    nationality: "",
+    age: 0,
+    wins: 0,
+    poles: 0,
+    championships: 0,
+    
+  },
+
 ];
 
 export default function DriversSection() {
@@ -93,13 +278,13 @@ export default function DriversSection() {
           <span className="section-number">04</span>
           <div className="flex items-center gap-3 mb-3">
             <div style={{ width: "32px", height: "2px", background: "#E8002D" }} />
-            <span className="f1-label" style={{ color: "#E8002D" }}>The Grid</span>
+            <span className="f1-label" style={{ color: "#E8002D" }}>Line-up</span>
           </div>
           <h2
             className="f1-heading text-white"
             style={{ fontSize: "clamp(2.5rem, 5vw, 4.5rem)" }}
           >
-            DRIVER PROFILES
+            Profily jezdců
           </h2>
         </div>
 
@@ -204,7 +389,7 @@ export default function DriversSection() {
                     marginBottom: "1.25rem",
                   }}
                 >
-                  {driver.bio}
+
                 </p>
 
                 {/* Stats */}
@@ -222,7 +407,7 @@ export default function DriversSection() {
                         className="f1-number"
                         style={{
                           fontSize: "1.75rem",
-                          color: stat.label === "Titles" && stat.value > 0 ? "#C9A84C" : "white",
+                          
                           lineHeight: 1,
                         }}
                       >

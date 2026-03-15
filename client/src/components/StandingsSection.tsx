@@ -7,25 +7,40 @@ import { useState } from "react";
 import { Trophy, TrendingUp, TrendingDown, Minus } from "lucide-react";
 
 const driverStandings = [
-  { pos: 1, name: "Max Verstappen", team: "Red Bull Racing", teamColor: "#3671C6", pts: 437, wins: 19, trend: "same" },
-  { pos: 2, name: "Lando Norris", team: "McLaren", teamColor: "#FF8000", pts: 374, wins: 3, trend: "up" },
-  { pos: 3, name: "Charles Leclerc", team: "Ferrari", teamColor: "#E8002D", pts: 356, wins: 3, trend: "down" },
-  { pos: 4, name: "Carlos Sainz", team: "Ferrari", teamColor: "#E8002D", pts: 293, wins: 2, trend: "up" },
-  { pos: 5, name: "Lewis Hamilton", team: "Mercedes", teamColor: "#27F4D2", pts: 234, wins: 2, trend: "down" },
-  { pos: 6, name: "Sergio Perez", team: "Red Bull Racing", teamColor: "#3671C6", pts: 152, wins: 0, trend: "down" },
-  { pos: 7, name: "George Russell", team: "Mercedes", teamColor: "#27F4D2", pts: 217, wins: 1, trend: "up" },
-  { pos: 8, name: "Oscar Piastri", team: "McLaren", teamColor: "#FF8000", pts: 197, wins: 2, trend: "up" },
+  { pos: 1, name: "-", team: "McLaren", teamColor: "#FF8000", pts: 0, wins: 0, trend: "same" },
+  { pos: 2, name: "-", team: "McLaren", teamColor: "#FF8000", pts: 0, wins: 0, trend: "same" },
+  { pos: 3, name: "-", team: "Ferrari", teamColor: "#E8002D", pts: 0, wins: 0, trend: "same" },
+  { pos: 4, name: "-", team: "Ferrari", teamColor: "#E8002D", pts: 0, wins: 0, trend: "same" },
+  { pos: 5, name: "-", team: "Red Bull", teamColor: "#3671C6", pts: 0, wins: 0, trend: "same" },
+  { pos: 6, name: "-", team: "Red Bull", teamColor: "#3671C6", pts: 0, wins: 0, trend: "same" },
+  { pos: 7, name: "-", team: "Mercedes", teamColor: "#27F4D2", pts: 0, wins: 0, trend: "same" },
+  { pos: 8, name: "-", team: "Mercedes", teamColor: "#27F4D2", pts: 0, wins: 0, trend: "same" },
+  { pos: 9, name: "-", team: "Aston Martin", teamColor: "#358C75", pts: 0, wins: 0, trend: "same" },
+  { pos: 10, name: "-", team: "Aston Martin", teamColor: "#358C75", pts: 0, wins: 0, trend: "same" },
+  { pos: 11, name: "Martin Davídek", team: "Alpine", teamColor: "#FF87BC", pts: 0, wins: 0, trend: "same" },
+  { pos: 12, name: "-", team: "Alpine", teamColor: "#FF87BC", pts: 0, wins: 0, trend: "same" },
+  { pos: 13, name: "-", team: "Haas", teamColor: "#B6BABD", pts: 0, wins: 0, trend: "same" },
+  { pos: 14, name: "-", team: "Haas", teamColor: "#B6BABD", pts: 0, wins: 0, trend: "same" },
+  { pos: 15, name: "-", team: "Racing Bulls", teamColor: "#0059ff", pts: 0, wins: 0, trend: "same" },
+  { pos: 16, name: "-", team: "Racing Bulls", teamColor: "#0059ff", pts: 0, wins: 0, trend: "same" },
+  { pos: 17, name: "Matyáš Vošahlík", team: "Williams", teamColor: "#64C4FF", pts: 0, wins: 0, trend: "same" },
+  { pos: 18, name: "-", team: "Williams", teamColor: "#64C4FF", pts: 0, wins: 0, trend: "same" },
+  { pos: 19, name: "-", team: "Kick Sauber", teamColor: "#00ff0d", pts: 0, wins: 0, trend: "same" },
+  { pos: 20, name: "-", team: "Kick Sauber", teamColor: "#00ff0d", pts: 0, wins: 0, trend: "same" },
 ];
 
 const constructorStandings = [
-  { pos: 1, name: "Red Bull Racing", color: "#3671C6", pts: 589, wins: 19 },
-  { pos: 2, name: "Ferrari", color: "#E8002D", pts: 652, wins: 5 },
-  { pos: 3, name: "McLaren", color: "#FF8000", pts: 571, wins: 5 },
-  { pos: 4, name: "Mercedes", color: "#27F4D2", pts: 451, wins: 3 },
-  { pos: 5, name: "Aston Martin", color: "#358C75", pts: 94, wins: 0 },
-  { pos: 6, name: "Alpine", color: "#0093CC", pts: 65, wins: 0 },
-  { pos: 7, name: "Williams", color: "#64C4FF", pts: 51, wins: 0 },
-  { pos: 8, name: "Haas", color: "#B6BABD", pts: 50, wins: 0 },
+  { pos: 1, name: "McLaren", color: "#FF8000", pts: 0, wins: 0 },
+  { pos: 2, name: "Ferrari", color: "#E8002D", pts: 0, wins: 0 },
+  { pos: 3, name: "Red Bull Racing", color: "#3671C6", pts:0, wins: 0 },
+  { pos: 4, name: "Mercedes", color: "#27F4D2", pts: 0, wins: 0 },
+  { pos: 5, name: "Aston Martin", color: "#358C75", pts: 0, wins: 0 },
+  { pos: 6, name: "Alpine", color: "#0093CC", pts: 0, wins: 0 },
+  { pos: 7, name: "Haas", color: "#B6BABD", pts: 0, wins: 0 },
+  { pos: 8, name: "Racing Bulls", color: "#0059ff", pts: 0, wins: 0 },
+  { pos: 9, name: "Williams", color: "#64C4FF", pts: 0, wins: 0 },
+  { pos: 10, name: "Kick Sauber", color: "#00ff0d", pts: 0, wins: 0 },
+
 ];
 
 export default function StandingsSection() {
@@ -44,13 +59,13 @@ export default function StandingsSection() {
           <span className="section-number">01</span>
           <div className="flex items-center gap-3 mb-3">
             <div style={{ width: "32px", height: "2px", background: "#E8002D" }} />
-            <span className="f1-label" style={{ color: "#E8002D" }}>Championship</span>
+            <span className="f1-label" style={{ color: "#E8002D" }}>Šampionát</span>
           </div>
           <h2
             className="f1-heading text-white"
             style={{ fontSize: "clamp(2.5rem, 5vw, 4.5rem)" }}
           >
-            2025 STANDINGS
+            Tabulka sezony 1
           </h2>
         </div>
 
@@ -69,7 +84,7 @@ export default function StandingsSection() {
                 fontSize: "0.75rem",
               }}
             >
-              {tab === "drivers" ? "Drivers" : "Constructors"}
+              {tab === "drivers" ? "Jezdci" : "Týmy"}
             </button>
           ))}
         </div>
@@ -80,7 +95,7 @@ export default function StandingsSection() {
             <table className="w-full" style={{ borderCollapse: "collapse" }}>
               <thead>
                 <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.08)" }}>
-                  {["Pos", "Driver", "Team", "Wins", "Points", ""].map((h) => (
+                  {["Pozice", "Jezdec", "Tým", "Výhry", "Body", ""].map((h) => (
                     <th
                       key={h}
                       className="f1-label text-left py-3 px-4"
@@ -171,7 +186,7 @@ export default function StandingsSection() {
             <table className="w-full" style={{ borderCollapse: "collapse" }}>
               <thead>
                 <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.08)" }}>
-                  {["Pos", "Constructor", "Wins", "Points"].map((h) => (
+                  {["Pozice", "Tým", "Výhry", "BODY"].map((h) => (
                     <th
                       key={h}
                       className="f1-label text-left py-3 px-4"

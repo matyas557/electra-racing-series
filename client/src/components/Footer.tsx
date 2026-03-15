@@ -6,10 +6,9 @@ import { Flag, Twitter, Instagram, Youtube, Facebook } from "lucide-react";
 import { toast } from "sonner";
 
 const footerLinks = {
-  Racing: ["Standings", "Calendar", "Results", "Live Timing"],
+  Racing: ["Tabulky", "Kalendář", "Výsledky"],
   Teams: ["Red Bull Racing", "Ferrari", "McLaren", "Mercedes"],
-  Drivers: ["Max Verstappen", "Lando Norris", "Charles Leclerc", "Lewis Hamilton"],
-  More: ["About F1", "History", "Technology", "Fan Zone"],
+  Drivers: ["-", "-", "-", "-"],
 };
 
 const socials = [
@@ -57,7 +56,6 @@ export default function Footer() {
                 marginBottom: "1.5rem",
               }}
             >
-              The ultimate destination for Formula 1 fans. Live standings, race results, team profiles, and more.
             </p>
             {/* Social links */}
             <div className="flex gap-3">
