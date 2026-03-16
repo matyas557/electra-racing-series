@@ -22,7 +22,7 @@ const races = [
   { round: "13", name: "Velká Cena Maďarska", circuit: "Hungaroring", country: "Maďarsko", flag: "", date: "neznámo", status: "upcoming", winner: null },
   { round: "14", name: "Velká Cena Nizozemska", circuit: "Cicuit Zandvoort", country: "Nizozemsko", flag: "", date: "neznámo", status: "upcoming", winner: null },
   { round: "15", name: "Velká Cena Itálie", circuit: "Autodromo Nazionale Monza", country: "Itálie", flag: "", date: "neznámo", status: "upcoming", winner: null },
-  { round: "16", name: "Velká Cena Itálie", circuit: "Autodromo Enzo e Dino Ferrari", country: "Itálie", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "16", name: "Velká Cena San Marina", circuit: "Autodromo Enzo e Dino Ferrari", country: "Itálie", flag: "", date: "neznámo", status: "upcoming", winner: null },
   { round: "17", name: "Velká Cena Azerbajdžánu", circuit: "Baku City Circuit", country: "Saudi Arabia", flag: "", date: "neznámo", status: "upcoming", winner: null },
   { round: "18", name: "Velká Cena Singapuru", circuit: "Marina Bay Street Circuit", country: "USA", flag: "", date: "neznámo", status: "upcoming", winner: null },
   { round: "19", name: "Velká Cena USA", circuit: "Circuit of The Americas", country: "Canada", flag: "", date: "neznámo", status: "upcoming", winner: null },

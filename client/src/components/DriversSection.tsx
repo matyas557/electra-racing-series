@@ -229,13 +229,13 @@ const drivers = [
     
   },
   {
-    number: "0",
-    name: "-",
-    shortName: "-",
+    number: "93",
+    name: "Daniel Klepal",
+    shortName: "KLE",
     team: "Williams",
     teamColor: "#64C4FF",
-    nationality: "",
-    age: 0,
+    nationality: "Česká Republika",
+    age: 16,
     wins: 0,
     poles: 0,
     championships: 0,

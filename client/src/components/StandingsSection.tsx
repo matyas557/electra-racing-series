@@ -24,7 +24,7 @@ const driverStandings = [
   { pos: 15, name: "-", team: "Racing Bulls", teamColor: "#0059ff", pts: 0, wins: 0, trend: "same" },
   { pos: 16, name: "-", team: "Racing Bulls", teamColor: "#0059ff", pts: 0, wins: 0, trend: "same" },
   { pos: 17, name: "Matyáš Vošahlík", team: "Williams", teamColor: "#64C4FF", pts: 0, wins: 0, trend: "same" },
-  { pos: 18, name: "-", team: "Williams", teamColor: "#64C4FF", pts: 0, wins: 0, trend: "same" },
+  { pos: 18, name: "Daniel Klepal", team: "Williams", teamColor: "#64C4FF", pts: 0, wins: 0, trend: "same" },
   { pos: 19, name: "-", team: "Kick Sauber", teamColor: "#00ff0d", pts: 0, wins: 0, trend: "same" },
   { pos: 20, name: "-", team: "Kick Sauber", teamColor: "#00ff0d", pts: 0, wins: 0, trend: "same"},
 ];
