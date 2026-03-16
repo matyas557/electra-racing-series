@@ -112,13 +112,13 @@ const drivers = [
     
   },
   {
-    number: "0",
-    name: "-",
-    shortName: "0",
+    number: "55",
+    name: "Štěpán Hlaváč",
+    shortName: "HLA",
     team: "Aston Martin",
     teamColor: "#358C75",
-    nationality: "",
-    age: 0,
+    nationality: "Česká Republika",
+    age: 13,
     wins: 0,
     poles: 0,
     championships: 0,
