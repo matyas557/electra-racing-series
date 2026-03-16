@@ -11,6 +11,7 @@ const navItems = [
   { label: "Týmy", href: "#teams" },
   { label: "Jezdci", href: "#drivers" },
   { label: "Novinky", href: "#news" },
+  { label: "Registrace", href: "https://forms.gle/usJmW6ktqnTFGvT59"}
 ];
 
 export default function Navbar() {
@@ -24,10 +25,16 @@ export default function Navbar() {
   }, []);
 
   const handleNavClick = (href: string) => {
-    setMenuOpen(false);
-    const el = document.querySelector(href);
-    if (el) el.scrollIntoView({ behavior: "smooth" });
-  };
+  setMenuOpen(false);
+
+  if (href.startsWith("http")) {
+    window.open(href, "_blank");
+    return;
+  }
+
+  const el = document.querySelector(href);
+  if (el) el.scrollIntoView({ behavior: "smooth" });
+};
 
   return (
     <nav
@@ -113,5 +120,12 @@ export default function Navbar() {
         </div>
       )}
     </nav>
+  );
+}
+export function Registrace() {
+  return (
+    <a href="https://forms.gle/usJmW6ktqnTFGvT59" target="_blank" rel="noopener noreferrer">
+      Otevřít stránku
+    </a>
   );
 }
