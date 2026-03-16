@@ -81,7 +81,7 @@ export default function NewsSection() {
               className="hidden md:flex items-center gap-2 f1-label"
               style={{ color: "rgba(255,255,255,0.4)", fontSize: "0.7rem" }}
             >
-              All Articles <ArrowRight size={14} />
+              Seznam Novinek <ArrowRight size={14} />
             </button>
           </div>
         </div>
