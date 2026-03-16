@@ -93,7 +93,7 @@ const teams = [
     fullName: "Atlassian Williams F1 Team",
     color: "#64C4FF",
     secondColor: "#ffffff",
-    drivers: ["Matyáš Vošahlík", "Daniel Klepal"],
+    drivers: ["Daniel Klepal", ""],
     base: "Grove, Velká Británie",
     championships: 0,
     founded: 2026,
@@ -118,13 +118,13 @@ export default function TeamsSection() {
           <span className="section-number">03</span>
           <div className="flex items-center gap-3 mb-3">
             <div style={{ width: "32px", height: "2px", background: "#C9A84C" }} />
-            <span className="f1-label" style={{ color: "#C9A84C" }}>Profily týmů</span>
+            <span className="f1-label" style={{ color: "#C9A84C" }}>Týmy v ERS</span>
           </div>
           <h2
             className="f1-heading text-white"
             style={{ fontSize: "clamp(2.5rem, 5vw, 4.5rem)" }}
           >
-            Týmy v ERS
+            LINE-UP
           </h2>
         </div>
 

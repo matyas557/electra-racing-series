@@ -216,13 +216,13 @@ const drivers = [
     
   },
   {
-    number: "46",
-    name: "Matyáš Vošahlík",
-    shortName: "VOS",
+    number: "0",
+    name: "",
+    shortName: "",
     team: "Williams",
     teamColor: "#64C4FF",
-    nationality: "Česká Republika",
-    age: 16,
+    nationality: "",
+    age: 0,
     wins: 0,
     poles: 0,
     championships: 0,

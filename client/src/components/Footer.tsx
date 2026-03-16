@@ -2,9 +2,8 @@
  * DESIGN: Night Race Cinematic
  * Footer: Dark, minimal, F1 branding, social links, checkered flag accent
  */
-import { Flag, Twitter, Instagram, Youtube, Facebook } from "lucide-react";
+import { Flag, Instagram, Youtube, Facebook } from "lucide-react";
 import { toast } from "sonner";
-import car from "client/public/logo.png";
 const footerLinks = {
   Racing: ["Tabulky", "Kalendář", "Výsledky"],
   Teams: ["Red Bull Racing", "Ferrari", "McLaren", "Mercedes"],
@@ -12,7 +11,6 @@ const footerLinks = {
 };
 
 const socials = [
-  { Icon: Twitter, label: "Twitter" },
   { Icon: Instagram, label: "Instagram" },
   { Icon: Youtube, label: "YouTube" },
   { Icon: Facebook, label: "Facebook" },
