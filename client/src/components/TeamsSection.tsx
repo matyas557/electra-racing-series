@@ -103,7 +103,7 @@ const teams = [
     fullName: "Stake Kick F1 Team Sauber",
     color: "#00ff0d",
     secondColor: "#000000",
-    drivers: ["-", "-"],
+    drivers: ["", "-"],
     base: "Hinwil, švýcarsko",
     championships: 0,
     founded: 2026,
