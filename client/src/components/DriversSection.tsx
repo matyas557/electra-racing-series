@@ -32,13 +32,13 @@ const drivers = [
     
   },
   {
-    number: "0",
-    name: "-",
-    shortName: "-",
+    number: "8",
+    name: "Eliáš Molnár",
+    shortName: "MOL",
     team: "Ferrari",
     teamColor: "#E8002D",
-    nationality: "",
-    age: 0,
+    nationality: "Slovensko",
+    age: 14,
     wins: 0,
     poles: 0,
     championships: 0,
