@@ -10,7 +10,7 @@ const teams = [
     fullName: "McLaren Formula 1 Team",
     color: "#FF8000",
     secondColor: "#000000",
-    drivers: ["-", "-"],
+    drivers: ["Vít Langr", "Pavol Nátny"],
     base: "Woking,Velká Británie",
     championships: 0,
     founded: 2026,
