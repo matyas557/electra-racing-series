@@ -93,7 +93,7 @@ const teams = [
     fullName: "Atlassian Williams F1 Team",
     color: "#64C4FF",
     secondColor: "#ffffff",
-    drivers: ["Daniel Klepal", ""],
+    drivers: ["Daniel Klepal", "-"],
     base: "Grove, Velká Británie",
     championships: 0,
     founded: 2026,

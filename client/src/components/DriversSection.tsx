@@ -12,7 +12,7 @@ const drivers = [
     team: "McLaren",
     teamColor: "#FF8000",
     nationality: "Česká Republika",
-    age: 15,
+    age: 11,
     wins: 0,
     poles: 0,
     championships: 0,
