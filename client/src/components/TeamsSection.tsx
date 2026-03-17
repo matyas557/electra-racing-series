@@ -42,7 +42,7 @@ const teams = [
     fullName: "Mercedes-AMG Petronas F1 Team",
     color: "#27F4D2",
     secondColor: "#000000",
-    drivers: ["Alex Ondrejka", "-"],
+    drivers: ["Alex Ondrejka", "Filip Kratochvíl"],
     base: "Brackley, Velká Británie",
     championships: 0,
     founded: 2026,

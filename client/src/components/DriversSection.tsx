@@ -99,13 +99,13 @@ const drivers = [
     
   },
   {
-    number: "0",
-    name: "-",
-    shortName: "0",
+    number: "67",
+    name: "Filip Kratochvíl",
+    shortName: "KRA",
     team: "Mercedes",
     teamColor: "#27F4D2",
-    nationality: "",
-    age: 0,
+    nationality: "Česká republika",
+    age: 18,
     wins: 0,
     poles: 0,
     championships: 0,
