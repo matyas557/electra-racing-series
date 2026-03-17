@@ -73,7 +73,7 @@ const teams = [
     fullName: "TGR Haas F1 Team",
     color: "#B6BABD",
     secondColor: "#ff0000",
-    drivers: ["-", "-"],
+    drivers: ["Alex Ondrejka", "-"],
     base: "Kannapolis, USA",
     championships: 0,
     founded: 2026,

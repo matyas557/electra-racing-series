@@ -112,7 +112,7 @@ const drivers = [
     
   },
   {
-    number: "55",
+    number: "78",
     name: "Štěpán Hlaváč",
     shortName: "HLA",
     team: "Aston Martin",
@@ -164,13 +164,13 @@ const drivers = [
     
   },
   {
-    number: "0",
-    name: "-",
-    shortName: "0",
+    number: "13",
+    name: "Alex Ondrejka",
+    shortName: "OND",
     team: "Haas",
     teamColor: "#B6BABD",
-    nationality: "",
-    age: 0,
+    nationality: "Slovensko",
+    age: 18,
     wins: 0,
     poles: 0,
     championships: 0,
