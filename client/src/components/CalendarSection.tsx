@@ -5,7 +5,7 @@
  */
 import { MapPin, Clock, Calendar } from "lucide-react";
 
-const races = [
+const racesPRO = [
   { round: "01", name: "Velká Cena Austrálie", circuit: "Albert Park Circuit", country: "Australia", flag: "", date: "neznámo", status: "next", winner: null },
   { round: "02", name: "Velká Cena Číny", circuit: "Shanghai International Circuit", country: "China", flag: "", date: "neznámo", status: "upcoming", winner: null },
   { round: "03", name: "Velká Cena Japonska", circuit: "Suzuka International Racing Course", country: "Japan", flag: "", date: "neznámo", status: "upcoming", winner: null },
@@ -31,11 +31,6 @@ const races = [
   { round: "22", name: "Velká Cena Las Vegas", circuit: "Las Vegas Strip Circuit", country: "Austria", flag: "", date: "neznámo", status: "upcoming", winner: null },
   { round: "23", name: "Velká Cena Kataru", circuit: "Lusail International Circuit", country: "UK", flag: "", date: "neznámo", status: "upcoming", winner: null },
   { round: "24", name: "Velká Cena Abú Dhabí", circuit: "Yas Marina Circuit", country: "Australia", flag: "", date: "neznámo", status: "upcoming", winner: null },
-
-  
-  
-
-
 ];
 
 export default function CalendarSection() {
@@ -72,7 +67,7 @@ export default function CalendarSection() {
 
         {/* Race Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {races.map((race) => (
+          {racesPRO.map((race) => (
             <div
               key={race.round}
               className="race-card"

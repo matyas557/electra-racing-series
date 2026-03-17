@@ -1,8 +1,3 @@
-/*
- * DESIGN: Night Race Cinematic
- * Navbar: Dark glass effect, F1 red accent, Barlow Condensed font
- * Sticky top with backdrop blur on scroll
- */
 import { useState, useEffect } from "react";
 
 const navItems = [
@@ -11,7 +6,7 @@ const navItems = [
   { label: "Týmy", href: "#teams" },
   { label: "Jezdci", href: "#drivers" },
   { label: "Novinky", href: "#news" },
-  { label: "Registrace", href: "https://forms.gle/usJmW6ktqnTFGvT59"}
+  { label: "Registrace", href: "https://forms.gle/usJmW6ktqnTFGvT59" }
 ];
 
 export default function Navbar() {
@@ -25,16 +20,16 @@ export default function Navbar() {
   }, []);
 
   const handleNavClick = (href: string) => {
-  setMenuOpen(false);
+    setMenuOpen(false);
 
-  if (href.startsWith("http")) {
-    window.open(href, "_blank");
-    return;
-  }
+    if (href.startsWith("http")) {
+      window.open(href, "_blank");
+      return;
+    }
 
-  const el = document.querySelector(href);
-  if (el) el.scrollIntoView({ behavior: "smooth" });
-};
+    const el = document.querySelector(href);
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <nav
@@ -46,57 +41,96 @@ export default function Navbar() {
         backdropFilter: "blur(20px)",
         borderBottom: scrolled
           ? "1px solid rgba(232, 0, 45, 0.3)"
-          : "1px solid rgba(255,255,255,0.05)",
+          : "1px solid rgba(255,255,255,0.05)"
       }}
     >
       <div className="container">
         <div className="flex items-center justify-between h-16">
+
           {/* Logo */}
           <a
             href="#"
-            className="flex items-center gap-2 group"
-            onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+            className="flex items-center gap-2"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
           >
-            <div
-            >
-
-
-            </div>
             <span
-              className="text-white font-black tracking-tight"
-              style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "1.25rem", letterSpacing: "-0.01em" }}
+              className="text-white font-black"
+              style={{
+                fontFamily: "'Barlow Condensed', sans-serif",
+                fontSize: "1.25rem"
+              }}
             >
               ELECTRA <span style={{ color: "#E8002D" }}>RACING SERIES</span>
             </span>
           </a>
 
-          {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-8">
-            {navItems.map((item) => (
-              <button
-                key={item.label}
-                onClick={() => handleNavClick(item.href)}
-                className="nav-link"
+          {/* Desktop MENU */}
+          <div className="hidden md:flex relative">
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="nav-link"
+            >
+              MENU
+            </button>
+
+            {menuOpen && (
+              <div
+                className="absolute top-12 right-0 flex flex-col gap-2 p-4 rounded-xl"
+                style={{
+                  background: "rgba(8, 11, 15, 0.98)",
+                  border: "1px solid rgba(232, 0, 45, 0.3)",
+                  backdropFilter: "blur(20px)"
+                }}
               >
-                {item.label}
-              </button>
-            ))}
+                {navItems.map((item) => (
+                  <button
+                    key={item.label}
+                    onClick={() => handleNavClick(item.href)}
+                    className="nav-link text-left"
+                  >
+                    {item.label}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
 
-          {/* CTA + Mobile Menu */}
-          <div className="flex items-center gap-4">
-            
+          {/* Hamburger (mobile only) */}
+          <div className="flex md:hidden">
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="flex flex-col justify-center items-center w-8 h-8"
+            >
+              <span
+                className={`block h-[2px] w-6 bg-white transition-all ${
+                  menuOpen ? "rotate-45 translate-y-[6px]" : ""
+                }`}
+              />
+              <span
+                className={`block h-[2px] w-6 bg-white my-1 transition-all ${
+                  menuOpen ? "opacity-0" : ""
+                }`}
+              />
+              <span
+                className={`block h-[2px] w-6 bg-white transition-all ${
+                  menuOpen ? "-rotate-45 -translate-y-[6px]" : ""
+                }`}
+              />
+            </button>
           </div>
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile menu */}
       {menuOpen && (
         <div
           className="md:hidden"
           style={{
             background: "rgba(8, 11, 15, 0.98)",
-            borderTop: "1px solid rgba(232, 0, 45, 0.2)",
+            borderTop: "1px solid rgba(232, 0, 45, 0.2)"
           }}
         >
           <div className="container py-4 flex flex-col gap-4">
@@ -104,28 +138,14 @@ export default function Navbar() {
               <button
                 key={item.label}
                 onClick={() => handleNavClick(item.href)}
-                className="nav-link text-left py-2"
-                style={{ fontSize: "1.1rem" }}
+                className="nav-link text-left"
               >
                 {item.label}
               </button>
             ))}
-            <button
-              className="f1-btn-primary text-sm mt-2 w-full"
-              onClick={() => handleNavClick("#calendar")}
-            >
-              Race Schedule
-            </button>
           </div>
         </div>
       )}
     </nav>
-  );
-}
-export function Registrace() {
-  return (
-    <a href="https://forms.gle/usJmW6ktqnTFGvT59" target="_blank" rel="noopener noreferrer">
-      Otevřít stránku
-    </a>
   );
 }

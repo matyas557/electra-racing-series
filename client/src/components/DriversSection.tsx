@@ -278,7 +278,7 @@ export default function DriversSection() {
           <span className="section-number">04</span>
           <div className="flex items-center gap-3 mb-3">
             <div style={{ width: "32px", height: "2px", background: "#E8002D" }} />
-            <span className="f1-label" style={{ color: "#E8002D" }}>Line-up</span>
+            <span className="f1-label" style={{ color: "#E8002D" }}>Jezdci v ERS</span>
           </div>
           <h2
             className="f1-heading text-white"
