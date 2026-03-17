@@ -10,7 +10,7 @@ const driverStandings = [
   { pos: 1, name: "Vít Langr", team: "McLaren", teamColor: "#FF8000", pts: 0, wins: 0, trend: "same" },
   { pos: 2, name: "Pavol Nátny", team: "McLaren", teamColor: "#FF8000", pts: 0, wins: 0, trend: "same" },
   { pos: 3, name: "Eliáš Molnár", team: "Ferrari", teamColor: "#E8002D", pts: 0, wins: 0, trend: "same" },
-  { pos: 4, name: "Michael Helesič", team: "Ferrari", teamColor: "#E8002D", pts: 0, wins: 0, trend: "same" },
+  { pos: 4, name: "Michael Helešic", team: "Ferrari", teamColor: "#E8002D", pts: 0, wins: 0, trend: "same" },
   { pos: 5, name: "-", team: "Red Bull", teamColor: "#3671C6", pts: 0, wins: 0, trend: "same" },
   { pos: 6, name: "-", team: "Red Bull", teamColor: "#3671C6", pts: 0, wins: 0, trend: "same" },
   { pos: 7, name: "Alex Ondrejka", team: "Mercedes", teamColor: "#27F4D2", pts: 0, wins: 0, trend: "same" },
