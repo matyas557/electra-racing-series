@@ -86,13 +86,13 @@ const drivers = [
   
   
   {
-    number: "0",
-    name: "-",
-    shortName: "0",
+    number: "13",
+    name: "Alex Ondrejka",
+    shortName: "OND",
     team: "Mercedes",
     teamColor: "#27F4D2",
-    nationality: "",
-    age: 0,
+    nationality: "Slovensko",
+    age: 18,
     wins: 0,
     poles: 0,
     championships: 0,
@@ -164,13 +164,13 @@ const drivers = [
     
   },
   {
-    number: "13",
-    name: "Alex Ondrejka",
-    shortName: "OND",
+    number: "0",
+    name: "-",
+    shortName: "0",
     team: "Haas",
     teamColor: "#B6BABD",
-    nationality: "Slovensko",
-    age: 18,
+    nationality: "",
+    age: 0,
     wins: 0,
     poles: 0,
     championships: 0,
