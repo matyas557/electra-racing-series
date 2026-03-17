@@ -45,13 +45,13 @@ const drivers = [
     
   },
   {
-    number: "0",
-    name: "-",
-    shortName: "0",
+    number: "95",
+    name: "Michael Helešic",
+    shortName: "HEL",
     team: "Ferrari",
     teamColor: "#E8002D",
-    nationality: "",
-    age: 0,
+    nationality: "Česká Republika",
+    age: 17,
     wins: 0,
     poles: 0,
     championships: 0,
@@ -216,7 +216,7 @@ const drivers = [
     
   },
   {
-    number: "46",
+    number: "0",
     name: "",
     shortName: "",
     team: "Williams",
