@@ -9,44 +9,13 @@ import { toast } from "sonner";
 const articles = [
   {
     id: 1,
-    category: "Obecné",
-    title: "Nová liga",
-    time: "5 min read",
+    category: "BREAKING NEWS",
+    title: "Novinky zatím nefungují.",
+    time: "",
     date: "",
     featured: true,
     tag: "Obecné",
     tagColor: "#E8002D",
-  },
-  {
-    id: 2,
-    category: "-",
-    title: "-",
-    time: "3 min read",
-    date: "",
-    featured: false,
-    tag: "Technical",
-    tagColor: "#FF8000",
-  },
-  {
-    id: 3,
-    category: "-",
-    title: "-",
-    excerpt: "",
-    time: "4 min read",
-    date: "",
-    featured: false,
-    tag: "Exclusive",
-    tagColor: "#C9A84C",
-  },
-  {
-    id: 4,
-    category: "-",
-    title: "-",
-    time: "6 min read",
-    date: "",
-    featured: false,
-    tag: "Preview",
-    tagColor: "#00D4FF",
   },
 ];
 
@@ -145,7 +114,7 @@ export default function NewsSection() {
                     fontSize: "0.9rem",
                   }}
                 >
-                  {featured.excerpt}
+                 
                 </p>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-4">
@@ -156,7 +125,7 @@ export default function NewsSection() {
                       {featured.date}
                     </span>
                     <div className="flex items-center gap-1">
-                      <Clock size={11} style={{ color: "rgba(255,255,255,0.3)" }} />
+                     
                       <span
                         className="f1-label"
                         style={{ color: "rgba(255,255,255,0.3)", fontSize: "0.65rem" }}
@@ -166,8 +135,8 @@ export default function NewsSection() {
                     </div>
                   </div>
                   <div className="flex items-center gap-1" style={{ color: "#E8002D" }}>
-                    <span className="f1-label" style={{ fontSize: "0.65rem" }}>Více</span>
-                    <ArrowRight size={12} />
+                    <span className="f1-label" style={{ fontSize: "0.65rem" }}></span>
+                    
                   </div>
                 </div>
               </div>
@@ -211,7 +180,7 @@ export default function NewsSection() {
                       marginBottom: "0.75rem",
                     }}
                   >
-                    {article.excerpt}
+                   
                   </p>
                   <div className="flex items-center gap-3">
                     <span
