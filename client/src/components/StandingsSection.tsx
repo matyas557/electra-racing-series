@@ -7,8 +7,8 @@ import { useState } from "react";
 import { Trophy, TrendingUp, TrendingDown, Minus } from "lucide-react";
 
 const driverStandings = [
-  { pos: 1, name: "-", team: "McLaren", teamColor: "#FF8000", pts: 0, wins: 0, trend: "same" },
-  { pos: 2, name: "-", team: "McLaren", teamColor: "#FF8000", pts: 0, wins: 0, trend: "same" },
+  { pos: 1, name: "Vít Langr", team: "McLaren", teamColor: "#FF8000", pts: 0, wins: 0, trend: "same" },
+  { pos: 2, name: "Pavol Nátny", team: "McLaren", teamColor: "#FF8000", pts: 0, wins: 0, trend: "same" },
   { pos: 3, name: "-", team: "Ferrari", teamColor: "#E8002D", pts: 0, wins: 0, trend: "same" },
   { pos: 4, name: "-", team: "Ferrari", teamColor: "#E8002D", pts: 0, wins: 0, trend: "same" },
   { pos: 5, name: "-", team: "Red Bull", teamColor: "#3671C6", pts: 0, wins: 0, trend: "same" },
