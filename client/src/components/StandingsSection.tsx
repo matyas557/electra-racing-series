@@ -11,7 +11,7 @@ const driverStandings = [
   { pos: 2, name: "Pavol Nátny", team: "McLaren", teamColor: "#FF8000", pts: 0, wins: 0, trend: "same" },
   { pos: 3, name: "Eliáš Molnár", team: "Ferrari", teamColor: "#E8002D", pts: 0, wins: 0, trend: "same" },
   { pos: 4, name: "Michael Helešic", team: "Ferrari", teamColor: "#E8002D", pts: 0, wins: 0, trend: "same" },
-  { pos: 5, name: "-", team: "Red Bull", teamColor: "#3671C6", pts: 0, wins: 0, trend: "same" },
+  { pos: 5, name: "Dávid Svat", team: "Red Bull", teamColor: "#3671C6", pts: 0, wins: 0, trend: "same" },
   { pos: 6, name: "-", team: "Red Bull", teamColor: "#3671C6", pts: 0, wins: 0, trend: "same" },
   { pos: 7, name: "Alex Ondrejka", team: "Mercedes", teamColor: "#27F4D2", pts: 0, wins: 0, trend: "same" },
   { pos: 8, name: "Filip Kratochvíl", team: "Mercedes", teamColor: "#27F4D2", pts: 0, wins: 0, trend: "same" },
@@ -24,7 +24,7 @@ const driverStandings = [
   { pos: 15, name: "-", team: "Racing Bulls", teamColor: "#0059ff", pts: 0, wins: 0, trend: "same" },
   { pos: 16, name: "-", team: "Racing Bulls", teamColor: "#0059ff", pts: 0, wins: 0, trend: "same" },
   { pos: 17, name: "Daniel Klepal", team: "Williams", teamColor: "#64C4FF", pts: 0, wins: 0, trend: "same" },
-  { pos: 18, name: "-", team: "Williams", teamColor: "#64C4FF", pts: 0, wins: 0, trend: "same" },
+  { pos: 18, name: "Maximilián Rovňák", team: "Williams", teamColor: "#64C4FF", pts: 0, wins: 0, trend: "same" },
   { pos: 19, name: "-", team: "Kick Sauber", teamColor: "#00ff0d", pts: 0, wins: 0, trend: "same" },
   { pos: 20, name: "-", team: "Kick Sauber", teamColor: "#00ff0d", pts: 0, wins: 0, trend: "same"},
 ];
