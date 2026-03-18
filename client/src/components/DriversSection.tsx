@@ -64,7 +64,7 @@ const drivers = [
     team: "Red Bull Racing",
     teamColor: "#3671C6",
     nationality: "Slovensko",
-    age: 0,
+    age: 18,
     wins: 0,
     poles: 0,
     championships: 0,
@@ -216,7 +216,7 @@ const drivers = [
     
   },
   {
-    number: "0",
+    number: "34",
     name: "Maximilián Rovňák",
     shortName: "ROV",
     team: "Williams",
