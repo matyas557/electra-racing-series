@@ -125,13 +125,13 @@ const drivers = [
     
   },
   {
-    number: "0",
-    name: "-",
-    shortName: "-",
+    number: "15",
+    name: "Alois Kučera",
+    shortName: "ALO",
     team: "Aston Martin",
     teamColor: "#358C75",
-    nationality: "",
-    age: 0,
+    nationality: "Česká Republika",
+    age: 17,
     wins: 0,
     poles: 0,
     championships: 0,

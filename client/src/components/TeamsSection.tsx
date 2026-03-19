@@ -53,7 +53,7 @@ const teams = [
     fullName: "Aston Martin Aramco F1 Team",
     color: "#358C75",
     secondColor: "#CEDC00",
-    drivers: ["Štěpán Hláváč", "-"],
+    drivers: ["Štěpán Hláváč", "Alois Kučera"],
     base: "Silverstone, Velká Británie",
     championships: 0,
     founded: 2026,
