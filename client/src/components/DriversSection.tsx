@@ -190,13 +190,13 @@ const drivers = [
     
   },
   {
-    number: "0",
-    name: "-",
-    shortName: "-",
+    number: "33",
+    name: "Samuel Hegeduš",
+    shortName: "SAM",
     team: "Racing Bulls",
     teamColor: "#0059ff",
-    nationality: "",
-    age: 0,
+    nationality: "Slovensko",
+    age: 14,
     wins: 0,
     poles: 0,
     championships: 0,
