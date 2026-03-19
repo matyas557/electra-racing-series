@@ -63,7 +63,7 @@ const teams = [
     fullName: "BWT Alpine F1 Team",
     color: "#0093CC",
     secondColor: "#FF87BC",
-    drivers: ["Martin Davídek", "-"],
+    drivers: ["-", "-"],
     base: "Enstone, Velká Británie",
     championships: 0,
     founded: 2026,

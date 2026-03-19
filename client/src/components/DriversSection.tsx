@@ -138,13 +138,13 @@ const drivers = [
     
   },
   {
-    number: "47",
-    name: "Martin Davídek",
-    shortName: "DAV",
+    number: "0",
+    name: "-",
+    shortName: "-",
     team: "Alpine",
     teamColor: "#FF87BC",
-    nationality: "Česká Republika",
-    age: 18,
+    nationality: "",
+    age: 0,
     wins: 0,
     poles: 0,
     championships: 0,
