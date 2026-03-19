@@ -7,17 +7,18 @@ import { MapPin, Clock, Calendar } from "lucide-react";
 
 const racesPRO = [
   { round: "01", name: "Velká Cena Austrálie", circuit: "Albert Park Circuit", country: "Australia", flag: "", date: "24. března 2026", status: "next", winner: null },
-  { round: "02", name: "Velká Cena Japonska", circuit: "Suzuka International Racing Course", country: "Japan", flag: "", date: "31. března 2026", status: "upcoming", winner: null },
-  { round: "03", name: "Velká Cena Bahrajnu", circuit: "Bahrain International Circuit", country: "Bahrain", flag: "", date: "7. dubna 2026", status: "upcoming", winner: null },
-  { round: "05", name: "Velká Cena Rakouska", circuit: "Red Bull Ring", country: "Austria", flag: "", date: "14. dubna 2026", status: "upcoming", winner: null },
-  { round: "06", name: "Velká Cena Velké Británie", circuit: "Silverstone Circuit", country: "UK", flag: "", date: "21. dubna 2026", status: "upcoming", winner: null },
+  { round: "02", name: "Velká Cena Japonska", circuit: "Suzuka International Racing Course", country: "Japan", flag: "", date: "7. dubna 2026", status: "upcoming", winner: null },
+  { round: "03", name: "Velká Cena Bahrajnu", circuit: "Bahrain International Circuit", country: "Bahrain", flag: "", date: "14. dubna 2026", status: "upcoming", winner: null },
+  { round: "04", name: "Velká Cena Španělska", circuit: "Circuit de Barcelona-Catalunya", country: "Spain", flag: "", date: "21. dubna 2026", status: "upcoming", winner: null },
+  { round: "05", name: "Velká Cena Rakouska", circuit: "Red Bull Ring", country: "Austria", flag: "", date: "28. dubna 2026", status: "upcoming", winner: null },
+  { round: "06", name: "Velká Cena Velké Británie", circuit: "Silverstone Circuit", country: "UK", flag: "", date: "5. května 2026", status: "upcoming", winner: null },
 
-  { round: "07", name: "Velká Cena Nizozemska", circuit: "Cicuit Zandvoort", country: "Nizozemsko", flag: "", date: "28. dubna 2026", status: "upcoming", winner: null },
-  { round: "08", name: "Velká Cena Itálie", circuit: "Autodromo Nazionale Monza", country: "Itálie", flag: "", date:"5. května 2026", status: "upcoming", winner: null },
-  { round: "09", name: "Velká Cena Singapuru", circuit: "Marina Bay Street Circuit", country: "USA", flag: "", date: "12. května 2026", status: "upcoming", winner: null },
-  { round: "10", name: "Velká Cena Brazílie", circuit: "Autodrómo José Carlos Pace", country: "Spain", flag: "", date: "19. května 2026", status: "upcoming", winner: null },
-  { round: "11", name: "Velká Cena Kataru", circuit: "Lusail International Circuit", country: "UK", flag: "", date: "26. května 2026", status: "upcoming", winner: null },
-  { round: "12", name: "Velká Cena Abú Dhabí", circuit: "Yas Marina Circuit", country: "Australia", flag: "", date: "2. června 2026", status: "upcoming", winner: null },
+  { round: "07", name: "Velká Cena Nizozemska", circuit: "Cicuit Zandvoort", country: "Nizozemsko", flag: "", date: "12. května 2026", status: "upcoming", winner: null },
+  { round: "08", name: "Velká Cena Itálie", circuit: "Autodromo Nazionale Monza", country: "Itálie", flag: "", date:"19. května 2026", status: "upcoming", winner: null },
+  { round: "09", name: "Velká Cena Singapuru", circuit: "Marina Bay Street Circuit", country: "USA", flag: "", date: "26. května 2026", status: "upcoming", winner: null },
+  { round: "10", name: "Velká Cena Brazílie", circuit: "Autodrómo José Carlos Pace", country: "Spain", flag: "", date: "2. června 2026", status: "upcoming", winner: null },
+  { round: "11", name: "Velká Cena Kataru", circuit: "Lusail International Circuit", country: "UK", flag: "", date: "9. června 2026", status: "upcoming", winner: null },
+  { round: "12", name: "Velká Cena Abú Dhabí", circuit: "Yas Marina Circuit", country: "Australia", flag: "", date: "16. června 2026", status: "upcoming", winner: null },
 ];
 
 export default function CalendarSection() {
