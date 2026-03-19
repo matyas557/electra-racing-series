@@ -176,7 +176,7 @@ export default function HeroSection() {
             {[
               { value: "24", label: "závodů" },
               { value: "10", label: "Týmů" },
-              { value: "11", label: "jezdců" },
+              { value: "12", label: "jezdců" },
               { value: "1", label: "měsíc působení" },
             ].map((stat) => (
               <div key={stat.label}>

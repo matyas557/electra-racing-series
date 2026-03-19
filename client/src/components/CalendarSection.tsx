@@ -26,11 +26,11 @@ const racesPRO = [
   { round: "17", name: "Velká Cena Azerbajdžánu", circuit: "Baku City Circuit", country: "Saudi Arabia", flag: "", date: "14. července 2026", status: "upcoming", winner: null },
   { round: "18", name: "Velká Cena Singapuru", circuit: "Marina Bay Street Circuit", country: "USA", flag: "", date: "21. července 2026", status: "upcoming", winner: null },
   { round: "19", name: "Velká Cena USA", circuit: "Circuit of The Americas", country: "Canada", flag: "", date: "28. července 2026", status: "upcoming", winner: null },
-  { round: "20", name: "Velká Cena Mexika", circuit: "Autodrómo Hermanos Rodríguez", country: "Monaco", flag: "", date: "neznámo", status: "upcoming", winner: null },
-  { round: "21", name: "Velká Cena Brazílie", circuit: "Autodrómo José Carlos Pace", country: "Spain", flag: "", date: "neznámo", status: "upcoming", winner: null },
-  { round: "22", name: "Velká Cena Las Vegas", circuit: "Las Vegas Strip Circuit", country: "Austria", flag: "", date: "neznámo", status: "upcoming", winner: null },
-  { round: "23", name: "Velká Cena Kataru", circuit: "Lusail International Circuit", country: "UK", flag: "", date: "neznámo", status: "upcoming", winner: null },
-  { round: "24", name: "Velká Cena Abú Dhabí", circuit: "Yas Marina Circuit", country: "Australia", flag: "", date: "neznámo", status: "upcoming", winner: null },
+  { round: "20", name: "Velká Cena Mexika", circuit: "Autodrómo Hermanos Rodríguez", country: "Monaco", flag: "", date: "4. srpna 2026", status: "upcoming", winner: null },
+  { round: "21", name: "Velká Cena Brazílie", circuit: "Autodrómo José Carlos Pace", country: "Spain", flag: "", date: "11. srpna 2026", status: "upcoming", winner: null },
+  { round: "22", name: "Velká Cena Las Vegas", circuit: "Las Vegas Strip Circuit", country: "Austria", flag: "", date: "18. srpna 2026", status: "upcoming", winner: null },
+  { round: "23", name: "Velká Cena Kataru", circuit: "Lusail International Circuit", country: "UK", flag: "", date: "25. srpna 2026", status: "upcoming", winner: null },
+  { round: "24", name: "Velká Cena Abú Dhabí", circuit: "Yas Marina Circuit", country: "Australia", flag: "", date: "1.9. 2026", status: "upcoming", winner: null },
 ];
 
 export default function CalendarSection() {

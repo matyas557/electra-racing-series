@@ -7,7 +7,7 @@ import { toast } from "sonner";
 const footerLinks = {
   Racing: ["Tabulky", "Kalendář", "Výsledky"],
   Teams: ["Red Bull Racing", "Ferrari", "McLaren", "Mercedes"],
-  Drivers: ["Vít Langr", "Pavol Nátny", "-", "-"],
+  Drivers: ["Vít Langr", "Pavol Nátny", "Eliáš Molnár", "Petr Loudil"],
 };
 
 const socials = [
