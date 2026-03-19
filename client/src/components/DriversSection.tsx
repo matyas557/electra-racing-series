@@ -127,7 +127,7 @@ const drivers = [
   {
     number: "0",
     name: "-",
-    shortName: "0",
+    shortName: "-",
     team: "Aston Martin",
     teamColor: "#358C75",
     nationality: "",
@@ -153,7 +153,7 @@ const drivers = [
   {
     number: "0",
     name: "-",
-    shortName: "0",
+    shortName: "-",
     team: "Alpine",
     teamColor: "#FF87BC",
     nationality: "",
@@ -166,7 +166,7 @@ const drivers = [
   {
     number: "0",
     name: "-",
-    shortName: "0",
+    shortName: "-",
     team: "Haas",
     teamColor: "#B6BABD",
     nationality: "",
@@ -179,7 +179,7 @@ const drivers = [
   {
     number: "0",
     name: "-",
-    shortName: "0",
+    shortName: "-",
     team: "Haas",
     teamColor: "#B6BABD",
     nationality: "",
@@ -192,7 +192,7 @@ const drivers = [
   {
     number: "0",
     name: "-",
-    shortName: "0",
+    shortName: "-",
     team: "Racing Bulls",
     teamColor: "#0059ff",
     nationality: "",
@@ -205,7 +205,7 @@ const drivers = [
   {
     number: "0",
     name: "-",
-    shortName: "0",
+    shortName: "-",
     team: "Racing Bulls",
     teamColor: "#0059ff",
     nationality: "",
@@ -244,7 +244,7 @@ const drivers = [
   {
     number: "0",
     name: "",
-    shortName: "",
+    shortName: "-",
     team: "Kick Sauber",
     teamColor: "#00ff0d",
     nationality: "Slovensko",
