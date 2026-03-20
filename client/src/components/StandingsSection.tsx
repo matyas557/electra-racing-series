@@ -19,13 +19,13 @@ const driverStandings = [
   { pos: 10, name: "Alois Kučera", team: "Aston Martin", teamColor: "#358C75", pts: 0, wins: 0, trend: "same" },
   { pos: 11, name: "-", team: "Alpine", teamColor: "#FF87BC", pts: 0, wins: 0, trend: "same" },
   { pos: 12, name: "-", team: "Alpine", teamColor: "#FF87BC", pts: 0, wins: 0, trend: "same" },
-  { pos: 13, name: "-", team: "Haas", teamColor: "#B6BABD", pts: 0, wins: 0, trend: "same" },
+  { pos: 13, name: "Jan Červenka", team: "Haas", teamColor: "#B6BABD", pts: 0, wins: 0, trend: "same" },
   { pos: 14, name: "-", team: "Haas", teamColor: "#B6BABD", pts: 0, wins: 0, trend: "same" },
   { pos: 15, name: "Samuel Hegeduš", team: "Racing Bulls", teamColor: "#0059ff", pts: 0, wins: 0, trend: "same" },
   { pos: 16, name: "-", team: "Racing Bulls", teamColor: "#0059ff", pts: 0, wins: 0, trend: "same" },
   { pos: 17, name: "Daniel Klepal", team: "Williams", teamColor: "#64C4FF", pts: 0, wins: 0, trend: "same" },
   { pos: 18, name: "Maximilián Rovňák", team: "Williams", teamColor: "#64C4FF", pts: 0, wins: 0, trend: "same" },
-  { pos: 19, name: "-", team: "Kick Sauber", teamColor: "#00ff0d", pts: 0, wins: 0, trend: "same" },
+  { pos: 19, name: "Jakub Zbín", team: "Kick Sauber", teamColor: "#00ff0d", pts: 0, wins: 0, trend: "same" },
   { pos: 20, name: "-", team: "Kick Sauber", teamColor: "#00ff0d", pts: 0, wins: 0, trend: "same"},
 ];
 
