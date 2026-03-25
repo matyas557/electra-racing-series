@@ -203,13 +203,13 @@ const drivers = [
     
   },
   {
-    number: "0",
-    name: "-",
-    shortName: "-",
+    number: "7",
+    name: "Antonín Rosák",
+    shortName: "ARS",
     team: "Racing Bulls",
     teamColor: "#0059ff",
-    nationality: "",
-    age: 0,
+    nationality: "Česká Republika",
+    age: 14,
     wins: 0,
     poles: 0,
     championships: 0,

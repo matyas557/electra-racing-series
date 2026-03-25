@@ -24,7 +24,7 @@ const driverStandings = [
   { pos: 15, name: "Maximilián Rovňák", team: "Williams", teamColor: "#64C4FF", pts: 0, wins: 0, trend: "up" },
   { pos: 16, name: "-", team: "Alpine", teamColor: "#FF87BC", pts: 0, wins: 0, trend: "down" },
   { pos: 17, name: "-", team: "Alpine", teamColor: "#FF87BC", pts: 0, wins: 0, trend: "down" },
-  { pos: 18, name: "-", team: "Racing Bulls", teamColor: "#0059ff", pts: 0, wins: 0, trend: "down" },
+  { pos: 18, name: "Antonín Rosák", team: "Racing Bulls", teamColor: "#0059ff", pts: 0, wins: 0, trend: "down" },
   { pos: 19, name: "-", team: "Kick Sauber", teamColor: "#00ff0d", pts: 0, wins: 0, trend: "down" },
   { pos: 20, name: "-", team: "Kick Sauber", teamColor: "#00ff0d", pts: 0, wins: 0, trend: "down"},
 ];

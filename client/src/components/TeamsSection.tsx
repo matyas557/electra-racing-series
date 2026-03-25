@@ -83,7 +83,7 @@ const teams = [
     fullName: "Visa Cash App Racing Bulls F1 Team",
     color: "#0059ff",
     secondColor: "#ffffff",
-    drivers: ["Samuel Hegeduš", "-"],
+    drivers: ["Samuel Hegeduš", "Antonín Rosák"],
     base: "Faenza, Itálie",
     championships: 0,
     founded: 2026,
