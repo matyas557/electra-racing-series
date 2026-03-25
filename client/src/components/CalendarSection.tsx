@@ -6,8 +6,8 @@
 import { MapPin, Clock, Calendar } from "lucide-react";
 
 const racesPRO = [
-  { round: "01", name: "Velká Cena Austrálie", circuit: "Albert Park Circuit", country: "Australia", flag: "", date: "24. března 2026", status: "next", winner: null },
-  { round: "02", name: "Velká Cena Japonska", circuit: "Suzuka International Racing Course", country: "Japan", flag: "", date: "7. dubna 2026", status: "upcoming", winner: null },
+  { round: "01", name: "Velká Cena Austrálie", circuit: "Albert Park Circuit", country: "Australia", flag: "", date: "24. března 2026", status: "completed", winner: "Petr Loudil" },
+  { round: "02", name: "Velká Cena Japonska", circuit: "Suzuka International Racing Course", country: "Japan", flag: "", date: "7. dubna 2026", status: "next", winner: null },
   { round: "03", name: "Velká Cena Bahrajnu", circuit: "Bahrain International Circuit", country: "Bahrain", flag: "", date: "14. dubna 2026", status: "upcoming", winner: null },
   { round: "04", name: "Velká Cena Španělska", circuit: "Circuit de Barcelona-Catalunya", country: "Spain", flag: "", date: "21. dubna 2026", status: "upcoming", winner: null },
   { round: "05", name: "Velká Cena Rakouska", circuit: "Red Bull Ring", country: "Austria", flag: "", date: "28. dubna 2026", status: "upcoming", winner: null },
