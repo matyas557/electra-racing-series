@@ -138,13 +138,13 @@ const drivers = [
     
   },
   {
-    number: "0",
-    name: "-",
-    shortName: "-",
+    number: "28",
+    name: "Štefan Paluch",
+    shortName: "PAL",
     team: "Alpine",
     teamColor: "#FF87BC",
-    nationality: "",
-    age: 0,
+    nationality: "Slovensko",
+    age: 32,
     wins: 0,
     poles: 0,
     championships: 0,
@@ -153,7 +153,7 @@ const drivers = [
   {
     number: "0",
     name: "-",
-    shortName: "-",
+    shortName: "",
     team: "Alpine",
     teamColor: "#FF87BC",
     nationality: "",
@@ -257,7 +257,7 @@ const drivers = [
   {
     number: "0",
     name: "-",
-    shortName: "-",
+    shortName: "",
     team: "Kick Sauber",
     teamColor: "#00ff0d",
     nationality: "",
